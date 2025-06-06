@@ -1,0 +1,60 @@
+---
+title: "Personal_Notes"
+output: html_document
+---
+
+## [**Purpose**]{.underline}
+
+Notes based on code deriving from the [saezlab/visium_heart](https://github.com/saezlab/visium_heart) repository, forming the basis of the publication [Kuppe C, Ramirez Flores RO, Li Z, Hayat S, Levinson RT, Liao X, et al. Spatial multi-omic map of human myocardial infarction. Nature. 2022;608(7924):766-7](https://www.nature.com/articles/s41586-022-05060-x.pdf).
+
+## [**Overview**]{.underline}
+
+Cardiovascular disease is the leading cause of mortality worldwide of which myocardial infarction is the largest contributor to the number of deaths. After myocardial infarction, inflammatory and reparative responses trigger widespread remodeling that affects the function of the heart. Understanding the intra- and intercellular signaling mechanisms within the heart that coordinate these tissue changes is a key step to develop novel therapeutics.
+
+This research presents an integrative map of human cardiac remodeling after myocardial infarction using single-cell gene expression, chromatin accessibility, and spatial transcriptomics profiling.
+
+The study encompasses multiple physiological zones at distinct time points in myocardium from a total of 23 myocardial infarction and control patients, profiling over 250,000 cells and nearly 100,000 spatial transcriptomics locations.
+
+Multimodal data integration allowed for characterisation of tissue structures relating to injury, repair, and remodeling that change in composition following ischemic injury. Moreover, they explored the relationships between the tissue reorganization and changes in the cardiac transcriptome and epigenome. They identified disease specific molecular states of cardiomyocytes, fibroblasts and myeloid cells that relate to specific spatial configurations of cells in the tissues.
+
+This integrative map represents an essential reference for the field that will allow the community to explore mechanistic hypotheses in animal models and compare disease molecular signatures of distinct cardiomyopathies.
+
+## [**Contents of Repository**]{.underline}
+
+1.  **Single Nuclei ATAC Sequencing (snATAC_seq)**
+
+    Contains the following folders:
+
+    1.  [data_integration]{.underline}
+
+    2.  [footprinting_analysis]{.underline}
+
+    3.  [integration_with_snRNA]{.underline}
+
+    4.  [mapping_tf_to_space]{.underline}
+
+    5.  [peak_to_gene_links]{.underline}
+
+    6.  [single_sample]{.underline}
+
+    7.  [tf_gene_association]{.underline}
+
+    8.  [trajectory_analysis]{.underline}
+
+        .
+
+2.  **Chromatin Immunoprecipitation Sequencing (ChiP_seq)**
+
+3.  **Spatial Transcriptomics (st_snRNAseq)**
+
+4.  **Single Molecule Fluorescence In Situ Hybridisation (smfish_analysis)**
+
+5.  **Sub Clustering for Cell Types (sub-clustering)**
+
+Additional folders include:
+
+1.  Cell to Gene Submission (cellxgene_submission)
+2.  Plotting for Figures (plot_figures)
+3.  Shiny Apps (shiny_apps)
+
+## [Single Nuclei ATAC Sequencing]{.underline}
